@@ -1,2 +1,8 @@
 # BINARY TO DECIMAL CONVERTER
-Binary to decimal number converter
+
+**Tools used:**
+* HTML
+* CSS
+* VANILLA JAVASCRIPT
+
+![Image of BINARY TO DECIMAL CONVERTER](https://i.imgur.com/CYeQlQ3.png)
