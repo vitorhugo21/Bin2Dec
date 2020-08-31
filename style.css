@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+}
+
+div.container {
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 100px 150px;
+  border: 2px solid rgb(176, 176, 176);
+  box-shadow: 0px 0px 20px 10px rgba(176, 176, 176, 0.8);
+  text-align: center;
+}
+
+div.title h1 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+div.bin-container {
+  margin-bottom: 50px;
+}
+
+div.bin-container label {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+div.bin-container input#bin-input {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+div.dec-container {
+  margin-bottom: 50px;
+}
+
+div.dec-container label {
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+div.dec-container input#dec-input {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-align: right;
+}
+
+div.action-btns {
+  margin-bottom: 50px;
+}
+
+div.action-btns button#convert-btn, button#reset-btn {
+  padding: 10px 30px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 2px solid rgb(176, 176, 176);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+div.action-btns button#convert-btn:hover, button#reset-btn:hover {
+background-color: rgba(176, 176, 176, 0.3);
+}
+
+div.action-btns button#reset-btn {
+  margin-left: 20px;
+}
